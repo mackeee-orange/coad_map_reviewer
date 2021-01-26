@@ -1,0 +1,23 @@
+@import "modules";
+@import "baseLayout";
+
+.page {
+  h2 {
+    padding: 16px 0 0;
+  }
+}
+
+.profileTable {
+
+}
+
+.profileKey {
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.profileValue {
+  margin: 8px 0;
+}
+
+.changePassword {}

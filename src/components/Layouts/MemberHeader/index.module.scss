@@ -1,0 +1,56 @@
+@import "../../../styles/modules/color";
+
+.header {
+  background: $secondaryColor;
+  color: $white;
+  padding: 0 50px 0 0;
+}
+
+.pageTitle {
+  color: $darkGray;
+}
+
+.menuToggleTrigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+  color: $darkGray;
+
+  &:hover {
+    color: $primaryColor;
+  }
+}
+
+
+.member_header {
+  background-color: $primaryColor;
+  color: $white;
+}
+
+.rectMenuButton {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  color: $white;
+  text-align: center;
+  line-height: 64px;
+  height: 64px;
+  width: 64px;
+  background-color: $primaryColor;
+}
+
+.iconWithLabel {
+  position: relative;
+  width: 50px;
+  text-align: center;
+  span {
+    position: absolute;
+    text-align: center;
+    font-size: 8px;
+    bottom: 8px;
+    width: 100%;
+  }
+}

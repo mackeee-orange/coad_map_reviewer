@@ -1,0 +1,33 @@
+@import "modules";
+
+.contentSection {
+  width: 100%;
+  margin: 0;
+  padding: 24px 0;
+}
+
+.sectionInnerWrap {
+  margin: 0 auto;
+
+  @include mediaQuery(md) {
+    margin: 0 32px;
+  }
+
+  @include mediaQuery(lg) {
+    width: $max-page-content-width - $opened-sidebar-width;
+    margin: 0 auto;
+  }
+}
+
+// padding
+.paddingSmall {
+  padding: 16px;
+}
+
+.paddingMedium {
+  padding: 24px;
+}
+
+.paddingLarge {
+  padding: 32px;
+}

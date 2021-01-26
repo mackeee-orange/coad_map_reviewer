@@ -1,0 +1,18 @@
+$iphone-size: 375px;
+
+$opened-sidebar-width: 200px;
+$max-page-content-width: 992px;
+
+$breakpoints: (
+        'xs': 'screen and (min-width: 400px)',
+        'sm': 'screen and (min-width: 567px)',
+        'md': 'screen and (min-width: 768px)',
+        'lg': 'screen and (min-width: 992px)',
+        'xl': 'screen and (min-width: 1200px)',
+) !default;
+
+@mixin mediaQuery($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
